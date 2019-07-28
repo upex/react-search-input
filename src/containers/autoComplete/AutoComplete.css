@@ -1,0 +1,40 @@
+.no-suggestions{
+  min-height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding: 10px;
+  font-size: 1.4rem;
+  color: #333;
+  z-index: 999;
+  -webkit-box-shadow: 10px 3px 31px -17px rgba(0,0,0,0.55);
+  -moz-box-shadow: 10px 3px 31px -17px rgba(0,0,0,0.55);
+  box-shadow: 10px 3px 31px -17px rgba(0,0,0,0.55);
+}
+.auto-suggest-wrapper {
+  position: relative;
+  min-width: 500px;
+  bottom: 4px;
+}
+.clearText {
+  position: absolute;
+  z-index: 999;
+  right: 0;
+  top: 9px;
+  cursor: pointer;
+}
+.suggestion-options {
+  position: absolute;
+  max-width: 510px;
+  min-width: 510px;
+  max-height: 300px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  z-index: 999;
+  background-color: white;
+  -webkit-box-shadow: 10px 3px 31px -17px rgba(0,0,0,0.55);
+  -moz-box-shadow: 10px 3px 31px -17px rgba(0,0,0,0.55);
+  box-shadow: 10px 3px 31px -17px rgba(0,0,0,0.55);
+}
