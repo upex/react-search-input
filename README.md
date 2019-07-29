@@ -1,3 +1,9 @@
+## Features
+1. Search capabilities on all fields.
+2. Navigation through keyboard or mouse.
+3. Active item will scroll into view.
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
